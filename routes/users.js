@@ -66,9 +66,12 @@ router.post('/',async(req,res)=>{
   try {
    const user =new usermodel(
     {
+      "id":req.body.id,
       "name":req.body.name,
-      "email":req.body.email,
-      "password":req.body.password
+      "phone":req.body.phone,
+      "password":req.body.password,
+      "role":req.body.role,
+      "image":req.body.image,
     }
    )
    //send new data 

@@ -65,10 +65,19 @@ router.post('/',async(req,res)=>{
   try {
    const item =new itemmodel(
     {
+
       "name":req.body.name,
       "cat":req.body.cat,
       "price":req.body.price,
+      "image":req.body.image,
+      "color":req.body.color,
+      "size":req.body.size,
+      "code":req.body.code,
+      "availability":req.body.availability,
       "qty":req.body.qty,
+      "invoicecount":req.body.invoicecount,
+      "cartid":req.body.cartid,
+
     }
    )
    //send new data 
