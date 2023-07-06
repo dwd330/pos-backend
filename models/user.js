@@ -6,9 +6,8 @@ name:{
     type:String,
   default:"",
 },
-email:{
+image:{
     type:String,
-    required:true,
     default:"",
   
 },
@@ -16,7 +15,17 @@ password:{
     type:String,
     default:"",
     
-}
+},
+phone:{
+    type:String,
+    default:"",
+    
+},
+role:{
+    type:String,
+    default:"",
+    
+},
 
 },
 {timestamps: true},
