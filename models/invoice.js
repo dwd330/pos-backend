@@ -50,7 +50,7 @@ finalpayamount:{
 },
 invoiceitemslist:{
     type:Array,
-    default:"",
+    default:[],
     
 }
 
