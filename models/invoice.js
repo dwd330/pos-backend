@@ -48,7 +48,7 @@ finalpayamount:{
     default:"",
   
 },
-catitemslist:{
+invoiceitemslist:{
     type:Array,
     default:"",
     
