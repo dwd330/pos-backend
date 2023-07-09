@@ -73,7 +73,7 @@ router.post('/',async(req,res)=>{
       "total":req.body.total,
       "discount":req.body.discount,
       "finalpayamount":req.body.finalpayamount,
-      "catitemslist":req.body.catitemslist,
+      "invoiceitemslist":req.body.invoiceitemslist,
      
     }
    )
